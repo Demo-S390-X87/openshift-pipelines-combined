@@ -12,7 +12,7 @@ spec:
       type: string
   steps:
     - name: patch
-      image: quay.io/openshift/origin-cli:latest
+      image: quay.io/mmondics/origin-cli-s390x:latest
       command: ["/bin/bash", "-c"]
       args:
         - |-
